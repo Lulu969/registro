@@ -1,0 +1,91 @@
+body {
+  margin: 0px;
+  background: url("fom3.jpg")no-repeat;
+  background-position: center;
+  background-size: 1400px 1000px;
+ 
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+}
+
+h5 {
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+
+header {
+  font-family: "Quicksand", sans-serif;
+  padding: 10px;
+}
+
+.nose {
+  display: flex;
+  justify-content: center;
+}
+
+.cosito2{
+  display: flex;
+  justify-content: center;
+  margin: 5px 5px;
+}
+.cosito3 {
+  color: black;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+.cosito4{
+  display: flex;
+  justify-content: center;
+  padding: 5px 5px;
+}
+.formu {
+  margin: 10px 15px;
+  padding: 15px 50px;
+  float: right;
+  width: 30%;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(20px);
+  border-color: transparent;
+  
+  border-radius: 7px;
+  background-color: transparent;
+}
+
+label {
+  font-family: "Saira Condensed", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: black;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 65%;
+  padding: 5px 20px;
+  margin: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: rgb(0, 0, 0);
+}
+
+input[type="radio"] {
+  font-family: "Nanum Gothic Coding", monospace;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  
+  width: 30%;
+  background-color: rgb(6, 156, 167);
+  padding: 5px 30px;
+  color: aliceblue;
+  border: 2px solid #ccc;
+  border-radius: 7px;
+}
